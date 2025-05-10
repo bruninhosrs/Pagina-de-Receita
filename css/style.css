@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+body {
+    background-color: #f3e6d8;
+}
+
+#container-receita {
+    background-color: #fff; /* Cor de fundo branca */
+    padding: 2rem; /* Espaçamento interno para não ficar colado nas bordas */
+    border-radius: 35px; /* Bordas arredondadas para suavizar o visual */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombrinha suave para dar destaque */
+    margin: 2rem auto; /* Centraliza o container e aplica margem superior/inferior */
+    width: 90%; /* Define largura de 90% da tela */
+    max-width: 1200px; /* Define a largura máxima para telas grandes */
+}
+
+#container-receita figure {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-receita .recipe-image {
+    width: 100%;  /* A imagem ocupa 100% da largura do container */
+    border-radius: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.sub-receita {
+    padding-left: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.sub-receita h1 {
+    font-size: 2.313rem;
+}
+
+.sub-receita p {
+    padding-top: 15px;
+    font-style: italic;
+    color: #666262;
+}
+
+#preparation-time {
+    background-color: #fff5fa;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    width: 98%;
+    
+}
+
+#preparation-time h2 {
+    color: #7b284f;
+    font-size: 1.5rem; 
+    margin-bottom: 1rem;
+}
+
+#preparation-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#preparation-list li {
+    font-size: 1rem; /* Tamanho do texto */
+    margin-bottom: 0.8rem; /* Espaçamento entre os itens da lista */
+}
+
+#preparation-list li::before {
+  content: "•"; /* Adiciona um marcador customizado (pode trocar o "•" por outros ícones) */
+  color: #7b284f; /* Cor do marcador */
+  font-size: 1.5rem; /* Tamanho do marcador */
+  margin-right: 10px; /* Espaço entre o marcador e o texto */
+}
+
+#ingredients {
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 2rem; /* Margem inferior */
+    border-bottom: 1px solid #ccc;
+}
+
+#ingredients h2 {
+    font-size: 2rem; /* Tamanho da fonte do título */
+    margin-bottom: 1rem;
+    color: #854632;
+}
+
+#ingredients ul {
+  list-style: none; /* Remove os pontos da lista */
+  padding-left: 0; /* Remove o padding padrão */
+}
+
+#ingredients-list li {
+    font-size: 1.1rem; /* Tamanho do texto */
+    margin-bottom: 0.5rem; /* Espaçamento entre os itens da lista */
+    color: #333;
+}
+
+#ingredients li::before {
+  content: "•"; /* Adiciona o marcador customizado (um ponto) */
+  color: #854632; /* Cor do ponto (um roxo suave) */
+  font-size: 1.5rem; /* Tamanho do ponto */
+  margin-right: 10px; /* Espaço entre o ponto e o texto */
+}
+
+#instructions {
+    padding: 20px;  /* Espaçamento interno */
+    margin-bottom: 2rem; /* Margem inferior para separar de outros elementos */
+    border-bottom: 1px solid #ccc;
+}
+
+#instructions h2 {
+    font-size: 2rem; /* Tamanho da fonte do título */
+    color: #854632;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#instructions ol {
+    padding-left: 20px; /* Espaçamento para a lista ordenada */
+    list-style-type: decimal; /* Usa números para os itens */
+}
+
+#instructions-list li {
+    font-size: 1.1rem; /* Tamanho do texto */
+    color: #333; /* Cor do texto */
+    margin-bottom: 1rem; /* Espaçamento entre os itens */
+}
+
+#instructions li::marker {
+  font-size: 1.4rem; /* Tamanho maior para o número */
+  color: #854632; /* Cor do número do marcador */
+}
+
+#instructions li strong {
+  font-weight: bold; /* Deixa as palavras em negrito mais fortes */
+}
+
+#nutrition {
+  padding: 20px; /* Espaçamento interno */
+  margin-bottom: 2rem; /* Espaço inferior entre as seções */
+}
+
+#nutrition h2 {
+  font-size: 2rem; /* Tamanho do título */
+  color: #854632; /* Cor marrom suave */
+  margin-bottom: 1rem; /* Espaço abaixo do título */
+}
+
+#nutrition p {
+  font-size: 1rem; /* Tamanho do parágrafo */
+  margin-bottom: 1rem; /* Espaço abaixo do parágrafo */
+}
+
+#nutrition ul {
+  list-style: none; /* Remove os pontos da lista */
+  padding-left: 0; /* Remove o padding padrão */
+}
+
+#nutrition li {
+  font-size: 1.1rem; /* Tamanho do texto dos itens */
+  color: #333; /* Cor do texto */
+  margin-bottom: 0.5rem; /* Espaço entre os itens da lista */
+  display: flex; /* Ativa o flexbox dentro de cada item da lista */
+  justify-content: space-between; /* Coloca os itens no espaço adequado entre o nome e o valor */
+  padding: 10px 5px; /* Espaçamento entre as linhas */
+  border-bottom: 1px solid #e0e0e0; /* Linha separadora suave entre os itens */
+}
+
+#nutrition li::before {
+  color: #9b4d96; /* Cor do ponto (roxo suave) */
+  font-size: 1.5rem; /* Tamanho do ponto */
+}
+
+#nutrition li strong {
+  font-weight: bold; /* Negrito para os valores numéricos */
+}
+
+.attribution {
+    text-align: center;
+}
