@@ -9,10 +9,10 @@ body {
 }
 
 #container-receita {
-    background-color: #fff; /* Cor de fundo branca */
+    background-color: #fff; 
     padding: 2rem; /* Espaçamento interno para não ficar colado nas bordas */
-    border-radius: 35px; /* Bordas arredondadas para suavizar o visual */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombrinha suave para dar destaque */
+    border-radius: 35px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 2rem auto; /* Centraliza o container e aplica margem superior/inferior */
     width: 90%; /* Define largura de 90% da tela */
     max-width: 1200px; /* Define a largura máxima para telas grandes */
@@ -70,13 +70,13 @@ body {
 }
 
 #preparation-list li {
-    font-size: 1rem; /* Tamanho do texto */
+    font-size: 1rem; 
     margin-bottom: 0.8rem; /* Espaçamento entre os itens da lista */
 }
 
 #preparation-list li::before {
   content: "•"; /* Adiciona um marcador customizado (pode trocar o "•" por outros ícones) */
-  color: #7b284f; /* Cor do marcador */
+  color: #7b284f; 
   font-size: 1.5rem; /* Tamanho do marcador */
   margin-right: 10px; /* Espaço entre o marcador e o texto */
 }
@@ -88,7 +88,7 @@ body {
 }
 
 #ingredients h2 {
-    font-size: 2rem; /* Tamanho da fonte do título */
+    font-size: 2rem; 
     margin-bottom: 1rem;
     color: #854632;
 }
@@ -105,10 +105,10 @@ body {
 }
 
 #ingredients li::before {
-  content: "•"; /* Adiciona o marcador customizado (um ponto) */
-  color: #854632; /* Cor do ponto (um roxo suave) */
-  font-size: 1.5rem; /* Tamanho do ponto */
-  margin-right: 10px; /* Espaço entre o ponto e o texto */
+  content: "•"; 
+  color: #854632; 
+  font-size: 1.5rem; 
+  margin-right: 10px; 
 }
 
 #instructions {
@@ -118,48 +118,47 @@ body {
 }
 
 #instructions h2 {
-    font-size: 2rem; /* Tamanho da fonte do título */
+    font-size: 2rem; 
     color: #854632;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
 #instructions ol {
-    padding-left: 20px; /* Espaçamento para a lista ordenada */
+    padding-left: 20px; 
     list-style-type: decimal; /* Usa números para os itens */
 }
 
 #instructions-list li {
     font-size: 1.1rem; /* Tamanho do texto */
-    color: #333; /* Cor do texto */
+    color: #333; 
     margin-bottom: 1rem; /* Espaçamento entre os itens */
 }
 
 #instructions li::marker {
-  font-size: 1.4rem; /* Tamanho maior para o número */
-  color: #854632; /* Cor do número do marcador */
+  font-size: 1.4rem; 
+  color: #854632; 
 }
 
 #instructions li strong {
-  font-weight: bold; /* Deixa as palavras em negrito mais fortes */
+  font-weight: bold; 
 }
 
 #nutrition {
-  background-color: #fff; /* Cor de fundo branca */
   padding: 20px; /* Espaçamento interno */
   margin-bottom: 2rem; /* Espaço inferior entre as seções */
 }
 
 #nutrition h2 {
-  font-size: 2rem; /* Tamanho do título */
-  color: #6a4f47; /* Cor marrom suave */
-  font-weight: bold; /* Título em negrito */
+  font-size: 2rem;
+  color: #6a4f47; 
+  font-weight: bold; 
   margin-bottom: 1rem; /* Espaço abaixo do título */
 }
 
 #nutrition p {
-  font-size: 1rem; /* Tamanho do parágrafo */
-  color: #666; /* Cor do texto explicativo */
+  font-size: 1rem; 
+  color: #666; 
   margin-bottom: 1rem; /* Espaço abaixo do parágrafo */
 }
 
@@ -175,13 +174,12 @@ body {
 }
 
 #nutrition-table th {
-  background-color: #f8f8f8; /* Cor de fundo suave para o cabeçalho */
-  color: #6a4f47; /* Cor marrom suave para o texto do cabeçalho */
-  font-weight: bold; /* Negrito para o texto do cabeçalho */
+  color: #6a4f47; 
+  font-weight: bold; 
 }
 
 #nutrition-table td {
-  color: #333; /* Cor do texto das células */
+  color: #333; 
 }
 
 #nutrition-table td strong {
@@ -195,23 +193,23 @@ body {
 
 @media (max-width: 768px) {
   #container-receita {
-    padding: 15px; /* Reduz o padding nas telas pequenas */
+    padding: 15px; 
   }
 
   h1 {
-    font-size: 2rem; /* Diminui o tamanho do título principal */
+    font-size: 2rem;
   }
 
   #nutrition h2 {
-    font-size: 1.5rem; /* Diminui o tamanho do título de nutrição */
+    font-size: 1.5rem; 
   }
 
   #nutrition-table {
-    font-size: 0.9rem; /* Reduz o tamanho da fonte da tabela */
+    font-size: 0.9rem;
   }
 
   #nutrition-table th, #nutrition-table td {
-    padding: 8px; /* Reduz o padding das células */
+    padding: 8px; 
   }
 
   /* Ajusta o layout das colunas da tabela */
@@ -220,25 +218,25 @@ body {
   }
 
   #nutrition p {
-    font-size: 0.9rem; /* Reduz o tamanho do texto explicativo */
+    font-size: 0.9rem;
   }
 }
 
 /* Responsividade para telas muito pequenas (celulares) */
 @media (max-width: 480px) {
   #nutrition-table th, #nutrition-table td {
-    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte */
+    font-size: 0.8rem; 
   }
 
   #nutrition-table {
-    font-size: 0.8rem; /* Ajusta o tamanho da fonte da tabela */
+    font-size: 0.8rem;
   }
 
   h1 {
-    font-size: 1.8rem; /* Tamanho do título para telas muito pequenas */
+    font-size: 1.8rem; 
   }
 
   #nutrition p {
-    font-size: 0.8rem; /* Diminui o tamanho do texto explicativo para telas pequenas */
+    font-size: 0.8rem;
   }
 }
