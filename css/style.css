@@ -192,3 +192,53 @@ body {
 .attribution {
     text-align: center;
 }
+
+@media (max-width: 768px) {
+  #container-receita {
+    padding: 15px; /* Reduz o padding nas telas pequenas */
+  }
+
+  h1 {
+    font-size: 2rem; /* Diminui o tamanho do título principal */
+  }
+
+  #nutrition h2 {
+    font-size: 1.5rem; /* Diminui o tamanho do título de nutrição */
+  }
+
+  #nutrition-table {
+    font-size: 0.9rem; /* Reduz o tamanho da fonte da tabela */
+  }
+
+  #nutrition-table th, #nutrition-table td {
+    padding: 8px; /* Reduz o padding das células */
+  }
+
+  /* Ajusta o layout das colunas da tabela */
+  #nutrition-table td {
+    word-wrap: break-word; /* Quebra o texto longo */
+  }
+
+  #nutrition p {
+    font-size: 0.9rem; /* Reduz o tamanho do texto explicativo */
+  }
+}
+
+/* Responsividade para telas muito pequenas (celulares) */
+@media (max-width: 480px) {
+  #nutrition-table th, #nutrition-table td {
+    font-size: 0.8rem; /* Reduz ainda mais o tamanho da fonte */
+  }
+
+  #nutrition-table {
+    font-size: 0.8rem; /* Ajusta o tamanho da fonte da tabela */
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Tamanho do título para telas muito pequenas */
+  }
+
+  #nutrition p {
+    font-size: 0.8rem; /* Diminui o tamanho do texto explicativo para telas pequenas */
+  }
+}
