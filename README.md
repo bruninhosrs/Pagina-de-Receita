@@ -2,7 +2,7 @@
 
 Este é um projeto simples de **Página de Receita**, criado para treinar **HTML, CSS**.
 
-👉 **Deploy online:** [_\[https://bruninhosrs.github.io/Pagina-de-Receita/](https://bruninhosrs.github.io/QRCode/)
+👉 **Deploy online:** [_\[https://bruninhosrs.github.io/Pagina-de-Receita/](https://bruninhosrs.github.io/Pagina-de-Receita/)
 
 ---
 
