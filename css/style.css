@@ -145,43 +145,48 @@ body {
 }
 
 #nutrition {
+  background-color: #fff; /* Cor de fundo branca */
   padding: 20px; /* Espaçamento interno */
   margin-bottom: 2rem; /* Espaço inferior entre as seções */
 }
 
 #nutrition h2 {
   font-size: 2rem; /* Tamanho do título */
-  color: #854632; /* Cor marrom suave */
+  color: #6a4f47; /* Cor marrom suave */
+  font-weight: bold; /* Título em negrito */
   margin-bottom: 1rem; /* Espaço abaixo do título */
 }
 
 #nutrition p {
   font-size: 1rem; /* Tamanho do parágrafo */
+  color: #666; /* Cor do texto explicativo */
   margin-bottom: 1rem; /* Espaço abaixo do parágrafo */
 }
 
-#nutrition ul {
-  list-style: none; /* Remove os pontos da lista */
-  padding-left: 0; /* Remove o padding padrão */
+#nutrition-table {
+  width: 100%; /* Faz a tabela ocupar toda a largura disponível */
+  border-collapse: collapse; /* Elimina o espaçamento entre as células da tabela */
 }
 
-#nutrition li {
-  font-size: 1.1rem; /* Tamanho do texto dos itens */
-  color: #333; /* Cor do texto */
-  margin-bottom: 0.5rem; /* Espaço entre os itens da lista */
-  display: flex; /* Ativa o flexbox dentro de cada item da lista */
-  justify-content: space-between; /* Coloca os itens no espaço adequado entre o nome e o valor */
-  padding: 10px 5px; /* Espaçamento entre as linhas */
-  border-bottom: 1px solid #e0e0e0; /* Linha separadora suave entre os itens */
+#nutrition-table th, #nutrition-table td {
+  padding: 12px; /* Espaçamento dentro das células */
+  text-align: left; /* Alinha o texto à esquerda */
+  border-bottom: 1px solid #e0e0e0; /* Linha separadora entre as células */
 }
 
-#nutrition li::before {
-  color: #9b4d96; /* Cor do ponto (roxo suave) */
-  font-size: 1.5rem; /* Tamanho do ponto */
+#nutrition-table th {
+  background-color: #f8f8f8; /* Cor de fundo suave para o cabeçalho */
+  color: #6a4f47; /* Cor marrom suave para o texto do cabeçalho */
+  font-weight: bold; /* Negrito para o texto do cabeçalho */
 }
 
-#nutrition li strong {
+#nutrition-table td {
+  color: #333; /* Cor do texto das células */
+}
+
+#nutrition-table td strong {
   font-weight: bold; /* Negrito para os valores numéricos */
+  color: #854632;
 }
 
 .attribution {
