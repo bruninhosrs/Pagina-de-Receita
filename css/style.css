@@ -1,96 +1,94 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
 }
 body {
-    background-color: #f3e6d8;
+  background-color: #f3e6d8;
 }
 
 #container-receita {
-    background-color: #fff; 
-    padding: 2rem; /* Espaçamento interno para não ficar colado nas bordas */
-    border-radius: 35px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 2rem auto; /* Centraliza o container e aplica margem superior/inferior */
-    width: 90%; /* Define largura de 90% da tela */
-    max-width: 1200px; /* Define a largura máxima para telas grandes */
+  background-color: #fff;
+  padding: 2rem; /* Espaçamento interno para não ficar colado nas bordas */
+  border-radius: 35px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto; /* Centraliza o container e aplica margem superior/inferior */
+  width: 90%; /* Define largura de 90% da tela */
+  max-width: 1200px; /* Define a largura máxima para telas grandes */
 }
 
 #container-receita figure {
-    display: flex;
-    margin: 0;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
 }
 
 #container-receita .recipe-image {
-    width: 100%;  /* A imagem ocupa 100% da largura do container */
-    border-radius: 35px;
-    margin-left: 10px;
-    margin-right: 10px;
-
+  width: 100%; /* A imagem ocupa 100% da largura do container */
+  border-radius: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .sub-receita {
-    padding-left: 10px;
-    margin-top: 35px;
-    margin-bottom: 35px;
+  padding-left: 10px;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 .sub-receita h1 {
-    font-size: 2.313rem;
+  font-size: 2.313rem;
 }
 
 .sub-receita p {
-    padding-top: 15px;
-    font-style: italic;
-    color: #666262;
+  padding-top: 15px;
+  font-style: italic;
+  color: #666262;
 }
 
 #preparation-time {
-    background-color: #fff5fa;
-    border-radius: 10px;
-    padding: 30px;
-    margin: 20px 0;
-    width: 98%;
-    
+  background-color: #fff5fa;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px 0;
+  width: 98%;
 }
 
 #preparation-time h2 {
-    color: #7b284f;
-    font-size: 1.5rem; 
-    margin-bottom: 1rem;
+  color: #7b284f;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 #preparation-list {
-    list-style: none;
-    padding-left: 0;
+  list-style: none;
+  padding-left: 0;
 }
 
 #preparation-list li {
-    font-size: 1rem; 
-    margin-bottom: 0.8rem; /* Espaçamento entre os itens da lista */
+  font-size: 1rem;
+  margin-bottom: 0.8rem; /* Espaçamento entre os itens da lista */
 }
 
 #preparation-list li::before {
   content: "•"; /* Adiciona um marcador customizado (pode trocar o "•" por outros ícones) */
-  color: #7b284f; 
+  color: #7b284f;
   font-size: 1.5rem; /* Tamanho do marcador */
   margin-right: 10px; /* Espaço entre o marcador e o texto */
 }
 
 #ingredients {
-    padding: 20px; /* Espaçamento interno */
-    margin-bottom: 2rem; /* Margem inferior */
-    border-bottom: 1px solid #ccc;
+  padding: 20px; /* Espaçamento interno */
+  margin-bottom: 2rem; /* Margem inferior */
+  border-bottom: 1px solid #ccc;
 }
 
 #ingredients h2 {
-    font-size: 2rem; 
-    margin-bottom: 1rem;
-    color: #854632;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #854632;
 }
 
 #ingredients ul {
@@ -99,49 +97,49 @@ body {
 }
 
 #ingredients-list li {
-    font-size: 1.1rem; /* Tamanho do texto */
-    margin-bottom: 0.5rem; /* Espaçamento entre os itens da lista */
-    color: #333;
+  font-size: 1.1rem; /* Tamanho do texto */
+  margin-bottom: 0.5rem; /* Espaçamento entre os itens da lista */
+  color: #333;
 }
 
 #ingredients li::before {
-  content: "•"; 
-  color: #854632; 
-  font-size: 1.5rem; 
-  margin-right: 10px; 
+  content: "•";
+  color: #854632;
+  font-size: 1.5rem;
+  margin-right: 10px;
 }
 
 #instructions {
-    padding: 20px;  /* Espaçamento interno */
-    margin-bottom: 2rem; /* Margem inferior para separar de outros elementos */
-    border-bottom: 1px solid #ccc;
+  padding: 20px; /* Espaçamento interno */
+  margin-bottom: 2rem; /* Margem inferior para separar de outros elementos */
+  border-bottom: 1px solid #ccc;
 }
 
 #instructions h2 {
-    font-size: 2rem; 
-    color: #854632;
-    font-weight: bold;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #854632;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 #instructions ol {
-    padding-left: 20px; 
-    list-style-type: decimal; /* Usa números para os itens */
+  padding-left: 20px;
+  list-style-type: decimal; /* Usa números para os itens */
 }
 
 #instructions-list li {
-    font-size: 1.1rem; /* Tamanho do texto */
-    color: #333; 
-    margin-bottom: 1rem; /* Espaçamento entre os itens */
+  font-size: 1.1rem; /* Tamanho do texto */
+  color: #333;
+  margin-bottom: 1rem; /* Espaçamento entre os itens */
 }
 
 #instructions li::marker {
-  font-size: 1.4rem; 
-  color: #854632; 
+  font-size: 1.4rem;
+  color: #854632;
 }
 
 #instructions li strong {
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 #nutrition {
@@ -151,35 +149,41 @@ body {
 
 #nutrition h2 {
   font-size: 2rem;
-  color: #6a4f47; 
-  font-weight: bold; 
+  color: #854632;
+  font-weight: bold;
   margin-bottom: 1rem; /* Espaço abaixo do título */
 }
 
 #nutrition p {
-  font-size: 1rem; 
-  color: #666; 
+  font-size: 1rem;
+  color: #666;
   margin-bottom: 1rem; /* Espaço abaixo do parágrafo */
 }
 
-#nutrition-table {
-  width: 100%; /* Faz a tabela ocupar toda a largura disponível */
-  border-collapse: collapse; /* Elimina o espaçamento entre as células da tabela */
-}
-
-#nutrition-table th, #nutrition-table td {
-  padding: 12px; /* Espaçamento dentro das células */
+#nutrition-table th,
+#nutrition-table td,
+#nutrition-table table {
+  margin: 15px;
+  padding: 15px 25px; /* Espaçamento dentro das células */
   text-align: left; /* Alinha o texto à esquerda */
-  border-bottom: 1px solid #e0e0e0; /* Linha separadora entre as células */
 }
 
-#nutrition-table th {
-  color: #6a4f47; 
-  font-weight: bold; 
+#nutrition-table {
+  width: 88%;
 }
 
 #nutrition-table td {
-  color: #333; 
+  color: #333;
+}
+
+#nutrition-table th,
+#nutrition-table td {
+  border-bottom: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+#nutrition-table tr:last-child td {
+  border-bottom: none;
 }
 
 #nutrition-table td strong {
@@ -188,12 +192,12 @@ body {
 }
 
 .attribution {
-    text-align: center;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   #container-receita {
-    padding: 15px; 
+    padding: 15px;
   }
 
   h1 {
@@ -201,15 +205,16 @@ body {
   }
 
   #nutrition h2 {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
   }
 
   #nutrition-table {
     font-size: 0.9rem;
   }
 
-  #nutrition-table th, #nutrition-table td {
-    padding: 8px; 
+  #nutrition-table th,
+  #nutrition-table td {
+    padding: 8px;
   }
 
   /* Ajusta o layout das colunas da tabela */
@@ -224,8 +229,9 @@ body {
 
 /* Responsividade para telas muito pequenas (celulares) */
 @media (max-width: 480px) {
-  #nutrition-table th, #nutrition-table td {
-    font-size: 0.8rem; 
+  #nutrition-table th,
+  #nutrition-table td {
+    font-size: 0.8rem;
   }
 
   #nutrition-table {
@@ -233,7 +239,7 @@ body {
   }
 
   h1 {
-    font-size: 1.8rem; 
+    font-size: 1.8rem;
   }
 
   #nutrition p {
